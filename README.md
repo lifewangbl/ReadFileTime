@@ -2,17 +2,17 @@
 读取视频时长<br>
 简而言之，代码如下：<br>
 
-import it.sauronsoftware.jave.Encoder;<br>
-import it.sauronsoftware.jave.MultimediaInfo;<br>
+import it.sauronsoftware.jave.Encoder;
+import it.sauronsoftware.jave.MultimediaInfo;
 
-import java.io.File;<br>
+import java.io.File;
 
-public class ReadVideo {<br>
+public class ReadVideo {
 
-	public static void main(String[] args) throws Exception {<br>
+	public static void main(String[] args) throws Exception {
 
-		File root = new File("D:\\dvd");<br>
-		showAllFiles(root);<br>
+		File root = new File("D:\\dvd");
+		showAllFiles(root);
 
 	}
 
